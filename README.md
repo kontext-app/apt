@@ -10,11 +10,16 @@ And to serve both offchain and onchain community members, Aptos.fyi allows anyon
 
 Aptos.fyi is decentralized AI curation, based on Aptos.
 
-## Tech
+## Tech: Aptos + Nodit + Extension
 
 Our stack is Next.js for the frontend, Node.js for the backend, and we are hosting our voting contracts on Aptos testnet. The Aptos contract allows our users to propose and vote on new accounts for the Aptos community list, adn to propose new variable settings as input to our feed AI.
 
 Building on Aptos allows us to leverage a highly scalable and efficient blockchain infrastructure, enabling our users to vote in realtime. This ensures that our AI-curated feeds can operate seamlessly, providing real-time updates and interactions for community members.
+
+We also built a chrome extension to lets community members propose new accounts for their community list, directly from the Twitter UI:
+
+<img width="615" alt="image" src="https://github.com/user-attachments/assets/bc1b7b55-8d63-48e8-8d08-ebeab11a72a1">
+
 
 ## Development
 
