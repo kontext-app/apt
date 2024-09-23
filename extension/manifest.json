@@ -1,0 +1,30 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "./assets/16.png",
+         "32": "./assets/32.png"
+      },
+      "default_title": "Kontext.news"
+   },
+   "background": {
+      "service_worker": "background.bundle.js"
+   },
+   "content_scripts": [ {
+      "css": [ "styles/main.css" ],
+      "js": [ "contentScript.bundle.js" ],
+      "matches": [ "https://*.twitter.com/*", "https://*.x.com/*" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "Details from Kontext.news inside Twitter app",
+   "permissions": ["activeTab", "storage", "background"],
+   "icons": {
+      "256": "./assets/256.png",
+      "32": "./assets/32.png",
+      "48": "./assets/48.png",
+      "16": "./assets/16.png"
+   },
+   "manifest_version": 3,
+   "name": "Kontext Extension",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1"
+}
