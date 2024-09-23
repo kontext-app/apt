@@ -1,4 +1,4 @@
-[Aptos.fyi](https://aptos.fyi) shows the latest news from the Twitter Aptos community
+[Aptos.fyi](https://aptos.fyi) shows the most relevant news from Aptos Twitter, by decentralizing the feed AI layer.
 
 ## What problem is this solving?
 
@@ -8,7 +8,8 @@ Aptos.fyi solves this problem, by allowing any community to host their own AI-cu
 
 And to serve both offchain and onchain community members, Aptos.fyi allows anyone to propose and implement new algorithms, through Twitter and through Aptos onchain voting.
 
-Aptos.fyi is decentralized AI curation, based on Aptos.
+Aptos.fyi decentralizes AI curation, on Aptos.
+Aptos.fyi solves AI alignment, on Aptos.
 
 ## Tech: Aptos + Nodit + Extension
 
